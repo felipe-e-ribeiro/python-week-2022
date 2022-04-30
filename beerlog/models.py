@@ -31,5 +31,3 @@ class Beer(SQLModel, table=True):
                 ]
             )
         return int(rate)
-
-brewdog = Beer(name="Brewdog", style="NEIPA", flavor=6, image=8, cost=10)
